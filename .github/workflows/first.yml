@@ -34,7 +34,6 @@ jobs:
             python3 -m pip install jupyter
             sudo apt install graphviz
             sudo apt install plantuml
-            wget https://github.com/plantuml/plantuml/releases/download/v1.2025.1/plantuml-mit-1.2025.1.jar
             python3 generate_plantuml.py
             java -jar plantuml-mit-1.2025.1.jar index.puml
             python3 generate_html.py
