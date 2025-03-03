@@ -1,5 +1,5 @@
 @startjson
-scale 0.5
+scale 0.43
 {
     "$id": "coding-scheme@iqb-standard@3.2",
     "$schema": "http://json-schema.org/draft-07/schema#",
@@ -13,7 +13,7 @@ scale 0.5
             "pattern": "^\\d+\\.\\d+$",
             "examples": [
                 "3.5",
-                "4.17"
+                "4.43"
             ]
         },
         "variableCodings": {
