@@ -8,7 +8,7 @@ with open(os.path.join('docs','coding-scheme.schema.json'), 'r') as f:
 
 def generate_plantuml(schema):
     plantuml_code = '@startjson\n'
-    plantuml_code = 'scale 0.5\n'
+    plantuml_code += 'scale 0.5\n'
     plantuml_code += json.dumps(schema,indent=4)
     plantuml_code += '\n'
     plantuml_code += '@endjson'
