@@ -8,7 +8,7 @@ html_code = f"""
 </head>
 <body>
     <h1>UML Diagram</h1>
-    <img src="index.puml" alt="UML Diagram" />
+    <img src="index.png" alt="UML Diagram" />
 </body>
 </html>
 """
